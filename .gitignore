@@ -1,0 +1,58 @@
+# 通用忽略项
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 环境变量
+.env
+.env.local
+.env.production
+
+# 数据库
+*.db
+*.sqlite3
+backend/data/sqlite/
+backend/data/chroma/
+
+# 日志
+logs/
+*.log
+backend/logs/
+
+# 上传文件
+data/uploads/
+backend/data/uploads/
+
+# 前端构建产物
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/node_modules/
+
+# 编辑器
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+
+# 操作系统
+*.bak
+*.tmp
+
+# Trae IDE
+.trae/
